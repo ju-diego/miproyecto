@@ -1,0 +1,194 @@
+body {
+    margin: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.header {
+    background-color: #1b2127;
+    color: white;
+    display:flex;
+    height: 70px;
+    height: inherit ;
+    justify-content: space-between;
+}
+.container {
+    width: 1000px;
+    margin: 0 auto ;
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    height: inherit ;
+    flex-wrap:inherit ;
+}
+.logo {
+    margin-top: 5px;
+}
+.menu {
+    height:inherit ;
+    display: flex ;
+    align-items: center;
+    
+ }
+
+.header ol {
+    height:inherit ;
+    display: flex ;
+    align-items: center;
+    list-style: none;
+}
+.link {
+    text-transform: none;
+    height:inherit ;
+    display: flex ;
+    align-items: center;
+    padding: 0 10px;
+   color: white;
+   text-decoration: none;
+}
+figure{
+    margin:0;
+}
+.principal {
+    height: 300px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.iprincipal {
+    object-fit: cover;
+}
+h1 {
+    color: white;
+    line-height: 1,5;
+    text-transform: capitalize;
+    margin: 0;
+    font-family:'Tenali Ramakrishna', sans-serif ;
+    font-size: 30px;
+}
+strong {
+    color: blue;
+}
+.acercademi {
+    background: white;
+    padding: 20px;
+}
+.sobremi {
+    border: 1px solid gray;
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px;
+
+}
+.titulo {
+    font-size:30px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+h1,
+h2,
+h3,
+h5,
+h6 {
+font-family: 'Source Sans Pro', sans-serif ; 
+font-weight: normal;
+}
+h3 {
+    color: blue;
+    text-transform: uppercase;
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+.description-massobremi {
+    font-size: 20px;
+}
+.sobremi{
+    font-size: 20px;
+}
+.detalles{
+    width: 500px;
+}
+
+.imagen-massobremi-contenedor {
+    width: 300px;
+    
+}
+.lista-massobremi{
+    display: flex;
+    flex-wrap: wrap;
+}
+.massobremi {
+    width: 480px;
+    margin: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    flex-shrink:0;
+    background: black;
+   
+}
+.imagen-massobremi {
+    width: 480px;
+    height:200px;
+    object-fit:cover ;
+}
+.detalles-massobremi {
+    text-align: center;
+    background-color : white; 
+    padding: 20px;
+    margin: 20px 40px;
+    margin-top: -40px;
+    position: relative;
+}
+.contacto {
+    background-color: blue ;
+    color: white;
+    height: 150px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.email-f input{
+    border-color: gray ;
+    padding: 10px;
+    width: 150px;
+    border-radius: 5px;
+}
+.email-f button {
+    background: transparent;
+    color: white;
+    border-radius: 5px;
+    width: 100px;
+    padding: 10px;
+    margin-left: 30px;
+
+}
+.twitter {
+    background-image: url("https://img.icons8.com/cotton/64/000000/twitter.png");
+    background-size: 40px, 40px;
+
+}
+.facebook {
+    background-image: url("https://img.icons8.com/dusk/64/000000/facebook.png");
+    background-size: 40px, 40px;
+}
+.instagram  {
+    background-image: url("https://img.icons8.com/office/16/000000/instagram-new.png");
+    background-size: 40px, 40px;
+}
+.link-social {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+}
+.footer {
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
